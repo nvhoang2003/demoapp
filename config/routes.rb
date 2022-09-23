@@ -9,6 +9,7 @@ Rails.application.routes.draw do
         resources :readers
         resources :gifts
         resources :stories
+        resources :categories
       end
 
       namespace :readers do
